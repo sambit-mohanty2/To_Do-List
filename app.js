@@ -17,6 +17,7 @@ function getItemFromLocalStorage() {
   return todos;
 }
 
+
 function addTodo(e) {
   //Prevent natural behaviour
   e.preventDefault();
