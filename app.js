@@ -14,6 +14,7 @@ filterOption.addEventListener("click", filterTodo);
 function getItemFromLocalStorage() {
   const todos = JSON.parse(localStorage.getItem("todos")) || [];
 
+  
   return todos;
 }
 
